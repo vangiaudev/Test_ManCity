@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,Arial,sans-serif;
+
+}
+.header{
+    background-color:#98c5e9;
+    width: 1365px;
+    height: 96px;
+
+}
+#photo{
+    text-indent: 240px;
+    padding: 10px;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: -70px 350px 0 350px; /*trên, phải, dưới, trái*/
+
+}
+
+#menu2{
+    display: flex;
+}
