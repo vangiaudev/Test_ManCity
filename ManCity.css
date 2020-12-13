@@ -2,27 +2,55 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,Arial,sans-serif;
-
+    overflow:hidden;
 }
 .header{
     background-color:#98c5e9;
     width: 1365px;
     height: 96px;
-
+    
+}
+.items{
+    width: 996px;
+    height: 383px;
+    background-color:rgb(17, 4, 49);
+    position: absolute;
+    left: 200px;
+    top: 150px;
 }
 #photo{
     text-indent: 240px;
     padding: 10px;
 }
 
-#menu{
+.menu{
     display: flex;
     list-style: none;
     justify-content: space-around;
-    margin: -70px 350px 0 350px; /*trên, phải, dưới, trái*/
+    margin: -70px 350px 0 290px; /*trên, phải, dưới, trái*/
 
 }
+ul li:hover{
+    text-decoration: underline;
+    color:  chocolate;
+    cursor:pointer;
+}
+#menu2 button{
+    background-color:#98c5e9;
+    border:#98c5e9;
+    display: flex;
+    white-space: nowrap;
+    margin: 7px 11px 0 11px;
+}
+
 
 #menu2{
     display: flex;
+    margin: -30px 1000px 0 1000px;
+}
+img{
+    vertical-align: text-bottom;
+}
+.items img{
+    margin: 0px 350px 0 350px;
 }
