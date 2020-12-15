@@ -2,13 +2,17 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,Arial,sans-serif;
-    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y: scroll;
 }
+
 .header{
     background-color:#98c5e9;
     width: 1365px;
     height: 96px;
-    
+    position: fixed;
+    top: 0px;
+    z-index: 2;
 }
 .items{
     width: 996px;
@@ -25,7 +29,7 @@ body{
 
 .menu{
     display: flex;
-    list-style: none;
+    list-style-type:symbols(pointer);
     justify-content: space-around;
     margin: -70px 350px 0 290px; /*trên, phải, dưới, trái*/
 
@@ -53,4 +57,41 @@ img{
 }
 .items img{
     margin: 0px 350px 0 350px;
+}
+
+#videodemo{
+    border-width: 400px;
+    height: 400px;
+    margin-top: 580px;
+    margin-left: 200px;
+    
+    z-index: 1;
+}
+#tieudevideo{
+    margin-top: 480px;
+    margin-left: 200px;
+    margin-bottom: -530px;
+    font-weight: bold;
+    text-shadow: 1px -1px 1px yellow;
+}
+#sexy {
+    border-style: ridge;
+    width: 265px;
+    height: 300px;
+    margin-left: 930px;
+    margin-top: -400px;
+}
+#text1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.A{
+    display: inline-flex;
+}
+.a{
+
+    width: 60%;
+}
+.b{
+  
 }
