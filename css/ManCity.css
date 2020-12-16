@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,Arial,sans-serif;
+    overflow-x:hidden;
+    overflow-y: scroll;
+}
+
+.header{
+    background-color:#98c5e9;
+    width: 1365px;
+    height: 96px;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+#isblue{
+
+}
+.items{
+    width: 996px;
+    height: 383px;
+    background-color:rgb(17, 4, 49);
+    position: relative;;
+    left: 200px;
+    top: 150px;
+}
+.items span{
+    position: absolute;
+    top: 20%;
+    color:yellow;
+    left: 8%;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px -3px 3px whitesmoke;
+
+}
+#photo{
+    text-indent: 240px;
+    padding: 10px;
+    
+}
+
+.menu{
+    display: flex;
+    list-style-type:none;
+    justify-content: space-around;
+    margin: -70px 350px 0 290px; /*trên, phải, dưới, trái*/
+
+}
+ul li:hover{
+    text-decoration: underline;
+    color:  chocolate;
+    cursor:pointer;
+}
+#menu2 button{
+    background-color:#98c5e9;
+    border:#98c5e9;
+    display: flex;
+    white-space: nowrap;
+    margin: 7px 11px 0 11px;
+}
+
+
+#menu2{
+    display: flex;
+    margin: -30px 1000px 0 1000px;
+}
+img{
+    vertical-align: text-bottom;
+}
+.items img{
+    margin: 0px 350px 0 350px;
+}
+
+#videodemo{
+    border-width: 400px;
+    height: 400px;
+    margin-top: 580px;
+    margin-left: 200px;
+    
+    z-index: 1;
+}
+#tieudevideo{
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-bottom: -530px;
+    font-weight: bold;
+    text-shadow: 1px -1px 1px yellow;
+}
+#sexy {
+    border-style: groove;
+    width: 265px;
+    height: 300px;
+    margin-left: 930px;
+    margin-top: -400px;
+    box-shadow: 0px -2px 3px darkblue;
+
+}
+#text1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+#foot{
+    width: 1349px;
+    height: 200px;
+    margin-top: 200px;
+    background-color:cyan;
+}
+
+
+.giaidau{
+    margin-left: 35%;
+}
+.doinha{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.doinha span{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 40px;
+
+   
+}
+
+.btnXem{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 200px;
+    height: 40px;
+}
+
+.infor{
+    display: flex;
+    justify-content: space-between;
+}
+
+#linkwatch{
+    text-decoration: none;
+}
+
+#logoPL{
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+.duongvien{
+    width: 100%;
+    height: 3px;
+    margin-top: 300px;
+    background-color: darkmagenta;
+}
+
+#btnKhung{
+    width: 300px;
+    height: 50px;
+    margin-top: -350px;
+    border-width: 5px;
+}
